@@ -133,8 +133,7 @@ PRODUCT_PACKAGES += \
     libshim_skia \
     libshims_camera \
     libshim_qcopt \
-    libshims_sensorlistener \
-    Snap
+    libshims_sensorlistener
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/libskia.so:system/lib/libskia.so
